@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">midterm_darina_umetalieva</string>
+    <string name="settings">settings</string>
+    <string name="name">Sam Smith</string>
+    <string name="nickname">JohnD</string>
+    <string name="city">New York</string>
+    <string name="about">About</string>
+    <string name="cinema">#cinema</string>
+    <string name="culture">#culture</string>
+    <string name="nightlife">#nightlife</string>
+    <string name="theater">#theater</string>
+    <string name="sport">#sport</string>
+    <string name="reputation">Reputation: 120</string>
+
+
 </resources>
