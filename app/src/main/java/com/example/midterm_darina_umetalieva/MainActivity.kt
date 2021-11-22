@@ -6,13 +6,16 @@ import android.os.Bundle
 import android.widget.ImageView
 
 class MainActivity : AppCompatActivity() {
-    val textView = findViewById<ImageView>(R.id.ImageView9)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main2)
+        //body
+        val imageViewView = findViewById<ImageView>(R.id.imageView9)
 
-    ImageView.text= "Click"
-
-    ImageView.setOnClickListener {
-        startActivity(Intent(this,MainActivity2::class.java))
-        finish()
-    }
+        imageViewView.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
+            finish()
+        }
+        //body
     }
 }

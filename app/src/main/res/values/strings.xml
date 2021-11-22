@@ -11,6 +11,8 @@
     <string name="theater">#theater</string>
     <string name="sport">#sport</string>
     <string name="reputation">Reputation: 120</string>
+    <drawable name="back">group_8_2</drawable>
+
 
 
 </resources>

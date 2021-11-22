@@ -60,5 +60,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/_8_following"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/__followers"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/__pods"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="515dp" />
+
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
